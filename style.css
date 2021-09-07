@@ -1,0 +1,33 @@
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+#bands {
+    list-style: inside square;
+    font-size: 18px;
+    background: white;
+    width: 500px;
+    margin: auto;
+    padding: 0;
+    box-shadow: 0 0 0 20px rgba(0,0,0,0.05);
+}
+#bands li + li {
+    border-top: 1px solid #efefef;
+}
+#bands li {
+    padding: 15px 20px;
+}
+a {
+    color: #ffc600;
+    text-decoration: none;
+}
+
+
